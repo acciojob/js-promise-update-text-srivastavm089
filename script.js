@@ -1,7 +1,7 @@
 function a (){
   const prom = new Promise((resolve,reject)=>{
      setTimeout(function() {
-       resolve("Hello world!")
+       resolve("Hello, world!")
      }, 1000);
   })
   .then((res)=>{
